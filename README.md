@@ -1,4 +1,4 @@
-# -Track-CV---Naruto-Handsign-Challenge
+# Track-CV---Naruto-Handsign-Challenge
 
 ## 📖 Overview
 Ninja Battle is a two-player interactive game inspired by Naruto.  
