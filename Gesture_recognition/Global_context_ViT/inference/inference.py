@@ -1,28 +1,3 @@
-"""
-GCViT Inference Script
-
-This script has been updated to fix the tensor size error that was occurring in the GlobalQueryGen class.
-The main fixes include:
-
-1. Automatic model architecture detection from checkpoint files
-2. Robust tensor reshaping with fallback mechanisms
-3. Better error handling and debugging information
-4. Automatic input size detection from model configuration
-5. Model compatibility checking before inference
-
-The original error was caused by a mismatch between expected and actual tensor dimensions
-in the GlobalQueryGen.forward() method, specifically when reshaping tensors for the
-global attention mechanism.
-
-Usage:
-    python inference.py --image <image_path> --checkpoint <checkpoint_path>
-    
-Optional arguments:
-    --model: Model architecture (auto-detected if not specified)
-    --num-classes: Number of classes (auto-detected if not specified)
-    --device: Device to use (cuda/cpu)
-"""
-
 import torch
 import torch.nn as nn
 import torchvision.transforms as transforms
