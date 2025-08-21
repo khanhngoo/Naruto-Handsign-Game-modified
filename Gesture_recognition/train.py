@@ -47,7 +47,7 @@ csv_path = os.path.join(results.save_dir, 'results.csv')
 if os.path.exists(csv_path):
     df = pd.read_csv(csv_path)
 
-    print("\n📊 Training Summary:")
+    print("Training Summary:")
     print(df.tail(1)) 
 
     plt.figure(figsize=(10, 6))
