@@ -1,7 +1,7 @@
 from ultralytics import YOLO
 import cv2
 
-model = YOLO(r"Gesture_recognition\YOLO\runs\train\exp1\weights\last.pt")  
+model = YOLO(r"Gesture_recognition\YOLO\runs\train\exp1\weights\best.pt")  
 
 cap = cv2.VideoCapture(0)
 
