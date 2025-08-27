@@ -1,0 +1,4 @@
+1. define request/response formats for HTTP request
+2. ensure type safety and validation for API endpoints
+3. standardize data formats between frontend and Backend
+4. define class, objects,...

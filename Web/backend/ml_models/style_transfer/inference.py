@@ -8,11 +8,11 @@ class StyleTransferModel:
     def __init__(self):
         self.model = None
         self.device = "cuda" if torch.cuda.is_available() else "cpu"
-        # TODO: Initialize your style transfer models here
+        # TODO: Initialize style transfer model
     
     def load_model(self, model_path: str):
         """Load pre-trained style transfer model"""
-        # TODO: Load your ArtFusion/SaMST/RLMiniStyler model
+        # TODO: Load model
         pass
     
     def transfer_style(self, image: Image.Image, style: str, intensity: float = 0.8):

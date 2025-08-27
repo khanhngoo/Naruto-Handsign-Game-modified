@@ -1,0 +1,8 @@
+1. receive HTTP request with image file and style parameters
+2. validate file type (must be image)
+3. validate style parameter (must be supported style)
+4. call services (style transfer | gesture)
+5. return HTTP response
+6. handle HTTP errors (400, 500, etc.)
+
+7. health.py is validate the connection between files without heavy models and long time

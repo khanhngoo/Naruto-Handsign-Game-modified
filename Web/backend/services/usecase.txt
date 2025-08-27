@@ -1,0 +1,5 @@
+1. validate input
+2. save uploaded file (image, frame image, ...)
+3. process the image (call ML model)
+4. clean up the input file
+5. calculate processing time (optional)

@@ -13,11 +13,11 @@ class GestureRecognitionModel:
             'bird', 'boar', 'dog', 'dragon', 'hare', 'horse',
             'monkey', 'ox', 'ram', 'rat', 'snake', 'tiger'
         ]
-        # TODO: Initialize your YOLO/ViT models here
+        # TODO: Initialize model
     
     def load_model(self, model_path: str):
         """Load pre-trained gesture recognition model"""
-        # TODO: Load your YOLO/ViT model
+        # TODO: Load model
         pass
     
     def predict(self, image: np.ndarray):
