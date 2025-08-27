@@ -1,0 +1,4 @@
+1. Load pre-trained machine learning models
+2. Preprocess data for model input (resize, normalize, convert formats)
+3. Run the model
+4. Postprocess model outputs (convert probabilities to predictions, format results)
