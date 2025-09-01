@@ -22,12 +22,14 @@ class GestureService:
         self.model = GestureRecognitionModel(model_path=str(model_path))
         self.JUTSU_DATABASE = {
             # Single-sign Jutsus
+            #
             ('tiger',): {"name": "Fire Release", "damage": 5, "video_url": "https://youtu.be/KuH8AA8HeC4"},
             ('dog',): {"name": "Water Release", "damage": 5, "video_url": "https://www.youtube.com/watch?v=lJjb193Tidc"},
-            ('bird',): {"name": "Wind Release", "damage": 5, "video_url": "https://www.youtube.com/watch?v=GOBZIdBKaHw"},
-
+            ('monkey',): {"name": "Wind Release", "damage": 5, "video_url": "https://youtu.be/GOBZIdBKaHw?si=u_MehzN4_jiCjd4_&t=50"},
+        
             # Multi-sign Jutsus (ensuring unique prefixes)
-            ('horse', 'tiger', 'Monkey'): {"name": "Chidori", "damage": 25, "video_url": "https://www.youtube.com/watch?v=AyQi0N3zuGU"},
+            ('ox', "hare", 'monkey'): {'name': 'Lightning Release', 'damage': 15, 'video_url': "https://www.youtubetrimmer.com/view/?v=w_oblbOQGuk&start=9&end=16&loop=0"},
+            ('horse', 'tiger', 'monkey'): {"name": "Chidori", "damage": 25, "video_url": "https://www.youtube.com/watch?v=AyQi0N3zuGU"},
             ('ram', 'Tiger', 'monkey', 'boar', 'horse', 'tiger'): {"name": "Katon: Gōkakyū no Jutsu", "damage": 35, "video_url": "https://www.youtube.com/watch?v=oWi8jVqITng"},
             ('snake', 'ram', 'monkey', 'boar', 'horse', 'tiger'): {"name": "Katon: Hosenka no Jutsu", "damage": 30, "video_url": "https://www.youtube.com/watch?v=P5e9U-E2t5g"},
         }
