@@ -1,0 +1,31 @@
+# Virtual Environment
+# -------------------
+ok/
+
+
+# Python cache
+# -------------------
+__pycache__/
+*.pyc
+
+# Environment variables 🔒
+# Never commit this file! It often contains secrets.
+# -------------------
+.ok
+
+# Build and distribution artifacts
+# -------------------
+build/
+dist/
+*.egg-info/
+*.whl
+
+# IDE / Editor folders
+# -------------------
+.vscode/
+.idea/
+
+# Testing artifacts
+# -------------------
+.pytest_cache/
+htmlcov/

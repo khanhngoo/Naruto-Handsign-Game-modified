@@ -9,7 +9,7 @@ interface NinjutsuButtonsProps {
 export function NinjutsuButtons({ currentPlayer, onNinjutsuUse, disabled = false }: NinjutsuButtonsProps) {
   return (
     <div>
-      <h3>What will {currentPlayer.name} do?</h3>
+      <h3>What jutsu will {currentPlayer.name} do?</h3>
       <div>
         {currentPlayer.ninjutsu.map((ninjutsu, index) => (
           <button
