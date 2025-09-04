@@ -2,6 +2,7 @@ export interface Ninjutsu {
   name: string;
   damage: number;
   description: string;
+  video_url?: string;
 }
 
 export interface Character {
