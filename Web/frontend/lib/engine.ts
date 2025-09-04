@@ -21,8 +21,8 @@ export function resolveNinjutsu(
   const attacker = currentTurn === 1 ? player1 : player2;
   const defender = currentTurn === 1 ? player2 : player1;
   
-  let newPlayer1 = { ...player1 };
-  let newPlayer2 = { ...player2 };
+  const newPlayer1 = { ...player1 };
+  const newPlayer2 = { ...player2 };
   let logMessage = '';
   let gameOver = false;
   let winner: string | undefined;
